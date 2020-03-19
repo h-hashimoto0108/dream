@@ -23,6 +23,7 @@ public class P124P16 {
     }
     //ここまで
 
+
     //上の何回の部分を作成する
     //ここから
     System.out.print(" ／ ");
