@@ -8,7 +8,6 @@ public class TreasureNumber {
 
   int[] NumberCreate(){
     this.Treasure = new int[4];
-    System.out.println("form TreasureNumber");
     ArrayList<Integer> list = new ArrayList<Integer>();
 
     for(int i = 1 ; i <= 8 ; i++) {
@@ -17,14 +16,10 @@ public class TreasureNumber {
 
     Collections.shuffle(list);
 
-
     for(int i = 0 ; i < 4 ; i++) {
       Treasure[i] = list.get(i);
-      
-      System.out.print(Treasure[i]);
     }
 
     return Treasure;
   }
-
 }
