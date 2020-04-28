@@ -18,7 +18,10 @@ public class TreasureNumber {
 
     for(int i = 0 ; i < 4 ; i++) {
       Treasure[i] = list.get(i);
+      System.out.print(Treasure[i]);
     }
+    
+    System.out.println();
 
     return Treasure;
   }
